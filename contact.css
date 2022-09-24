@@ -1,0 +1,64 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.652),rgba(0, 0, 0, 0.652)), url("images/img32.jpg");
+    background-size: cover;
+    
+    
+}
+main{
+    background-color: rgba(69, 67, 67, 0.452);
+}
+
+.contact{
+    margin: 0;
+}
+form{
+    display: flex;
+    background-color: rgba(0, 255, 255, 0.433);
+    width: 50%;
+    margin:0 auto;
+    font-size: 25px;
+    padding:30px;
+    justify-content: center;
+
+}
+
+.col1 label{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 30px;
+    
+}
+.col2 input[type=text],input[type=email],input[type=number],input[type=submit]{
+    display: block;
+    padding-top:10px;
+    margin-top: 10px;
+   
+    text-align: justify;
+    
+}
+input[type=checkbox]{
+    display:inline;
+    margin:15px 5px 10px 0;
+
+}
+p{
+    display: inline;
+}
+input[type=submit]{
+    padding:10px;
+    background-color: rgb(182, 225, 255);
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 20px;
+}
+input[type=submit]:hover{
+        transform: scale(1.2);
+        transition: transform 0.5s;
+        border:4px black double;
+    
+}
+
+textarea{
+    text-align: center;
+}

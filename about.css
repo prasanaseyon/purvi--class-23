@@ -1,0 +1,35 @@
+body{
+    background-image: url(images/img23.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.415),rgba(0, 0, 0, 0.582)), url(images/img23.jpg);
+}
+header{
+    margin-left: 40px;
+}
+.d1{
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    width: 70%;
+    padding: 2%;
+    margin-top:10%;
+    position: relative;
+    background:linear-gradient(rgba(0, 0, 0, 0.548),rgba(0, 0, 0, 0.57)), url("images/imgbg.jfif");
+    
+    
+    
+}
+h2{
+    font-weight: lighter;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    margin: 0 auto;
+    
+}
+img{
+    margin-right: 20px;
+    
+}
+.d1:hover{
+    background-color: white;
+}

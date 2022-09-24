@@ -1,0 +1,28 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.208),rgba(0, 0, 0, 0.148)), url("../images/img31.jpg");
+    background-size:100vh;
+    background-attachment: fixed;
+    
+}
+main{
+    background-color: rgba(0, 0, 0, 0.518);
+}
+td{
+    background-color: rgb(228, 171, 142);
+    color: black;
+    border: 5px outset gray;
+    border-radius: 10px;
+
+}
+td:hover{
+    
+    transform:scale(1.1) ;
+    transition: transform 0.1s;
+}
+button{
+    margin:0 auto;
+    background-color: azure;
+    color: black;
+    padding: 6px;
+    border:5px double black ;
+}

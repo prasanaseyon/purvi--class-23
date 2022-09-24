@@ -1,0 +1,30 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.296),rgba(0, 0, 0, 0.197)), url("../images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    
+    
+}
+main{
+    background-color: rgba(0, 0, 0, 0.397);
+}
+td{
+    background-color: rgb(179, 245, 212);
+    color: black;
+    border: 5px outset gray;
+    border-radius: 10px;
+
+}
+td:hover{
+    
+    transform:scale(1.1) ;
+    transition: transform 0.1s;
+}
+button{
+    margin:0 auto;
+    background-color: azure;
+    color: black;
+    padding: 6px;
+    border:5px double black ;
+}

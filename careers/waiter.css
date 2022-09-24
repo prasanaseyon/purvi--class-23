@@ -1,0 +1,10 @@
+body{
+    background-image: url("../images/bg3.jpg");
+    background-size: left bottom;
+    background-repeat: no-repeat;
+
+}
+td{
+    background-color: rgb(229, 228, 228);
+    color: black;
+}

@@ -1,0 +1,60 @@
+body{
+    background-image: url("./images/img36.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+td{
+    background-color: rgb(179, 245, 212);
+    color: black;
+    border: 5px outset rgba(128, 128, 128, 0);
+    border-radius: 10px;
+
+}
+td:hover{
+    
+    transform:scale(1.1) ;
+    transition: transform 0.1s;
+}
+table{
+    margin: 0 auto;
+    border-spacing: 50px;
+    border-collapse: separate;
+    
+    
+}
+td{
+    width:200px;
+    height:200px;
+    margin-right: 20px;
+    background-color:rgba(40, 39, 39, 0.226);
+    border-radius: 10px;
+    border:5px outset gray ;
+}
+button{
+    margin:0 auto;
+    background-color: azure;
+    color: black;
+    padding: 6px;
+    border:5px double black ;
+}
+button:hover{
+    background-color: black;
+    border: 5px double white;
+    color: white;
+    transform:scale(1.1) ;
+    transition: transform 0.1s;
+}
+td:hover{
+    
+    transform:scale(1.1) ;
+    transition: transform 0.7s;
+}
+iframe{
+    width:30%;
+    height:50%;
+    margin-right: 32%;
+    margin-top: 14%;
+    
+}
